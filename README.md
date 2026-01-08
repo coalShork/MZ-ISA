@@ -10,7 +10,7 @@ I picked up my MZ at a thrift store in Mankato, MN, and after getting it home an
 ### Parts required:
 Board, 8 bit ISA connector, 96 Pos DIN 41612 connector (BOTH male and female)
 
-### 1. Prepping the MZ-100
+### Prepping the MZ-100
 Unfortunately, on my MZ, Sharp didn't feel the need to supply an expansion connector from the factory. This means I (and probably most out there) will need to solder their own connector onto the header (CN16) to use it. Another thing Sharp didn't feel the need for are the +12, -5, and -12 voltage rails. You'll need to find a supply of those, like the bottom of the PSU connector for example, and use a bodge wire to connect it to the expansion header. Thankfully, Sharp included many no connection pins on the header. I have -5v connected to pin a5, +12 to a6, and -12 to a7.
 
 ![A table of the Expansion Bus pins](SharpEXPBus.jpg)
